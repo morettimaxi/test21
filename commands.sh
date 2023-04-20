@@ -4,7 +4,8 @@ local
 git status 
 
 #agregar neuvos archivos para subrlos
-git add .
+git add . (sube todos los archivos)
+
 
 #git commit, para subir los archivos le ponemos un comentario
 git commit -m "comentario"
@@ -27,3 +28,8 @@ git checkout nombre_branch
 
 
 
+#git set nuew origin url
+git remote set-url origin
+
+
+#crear branch nuevo de un ticket q se llama: Agregar hola en espanol
